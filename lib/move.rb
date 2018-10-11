@@ -16,7 +16,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def move(board, index, player = "X")
   board[index] = player
 
-  user_input.to_i - 1 = index
+  user_input.to_i - 1 == index
 end
 
 def move(board, index, "X")
